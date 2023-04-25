@@ -14,14 +14,13 @@ import * as mapboxgl from 'mapbox-gl';
   ]
 })
 export class FullscreenComponent implements OnInit {
+
   ngOnInit(): void {
-    
-    
-  var map = new mapboxgl.Map({
-  container: 'mapa',
-  style: 'mapbox://styles/mapbox/streets-v11',
-  center: [-58.41099323058433,-34.60798084537941 ],
-  zoom: 12
+    var map = new mapboxgl.Map({
+    container: 'mapa',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [-58.41099323058433,-34.60798084537941 ],
+    zoom: 12
 });
   }
 
